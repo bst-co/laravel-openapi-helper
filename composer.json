@@ -1,0 +1,37 @@
+{
+    "name": "bst-co/laravel-openapi-helper",
+    "version": "0.1.0",
+    "type": "library",
+    "keywords": [
+        "laravel",
+        "openapi"
+    ],
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "BstCo\\LaravelOpenApiHelper\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "t-ueno",
+            "email": "t-ueno@bstinc.co.jp"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "laravel/framework": "^9.0|^10.0",
+        "vyuldashev/laravel-openapi": "^1.11"
+    },
+    "require-dev": {
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "BstCo\\LaravelOpenApiHelper\\OpenApiHelperServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
