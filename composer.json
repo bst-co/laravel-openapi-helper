@@ -1,10 +1,13 @@
 {
     "name": "bst-co/laravel-openapi-helper",
+    "description": "Extension library to automate schema generation for vyuldashev/laravel-openapi",
     "version": "0.1.0",
     "type": "library",
     "keywords": [
         "laravel",
-        "openapi"
+        "openapi",
+        "swagger",
+        "generator"
     ],
     "license": "MIT",
     "autoload": {
